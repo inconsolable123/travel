@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>여행사 홈페이지</title>
+  <!-- style -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- script -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+  
+</head>
+<body>
+  <header class="header">
+    <nav class="inner">
+      <div class="logo">Wanderlust</div>
+      <ul class="menu">
+        <li><a href="javascript:void(0)">Home</a></li>
+        <li><a href="javascript:void(0)">Trending</a></li>
+        <li><a href="javascript:void(0)">Destinations</a></li>
+        <li><a href="javascript:void(0)">Guide</a></li>
+        <li><a href="javascript:void(0)">Client</a></li>
+      </ul>
+    </nav>
+    <!-- main-title -->
+    <div class="header__container inner">
+      <h1>Explore the beauty of nature Discover the new you</h1>
+      <!-- data -->
+      <div class="header__form">
+        <form action="">
+          <div class="input__group">
+            <label for="destination">Where do you want to go?</label>
+            <input type="text" placeholder="Country, ZIP">
+          </div>
+          <div class="input__group">
+            <label for="CheckIn">Check In</label>
+            <input type="text" placeholder="Choose a date">
+          </div>
+          <div class="input__group">
+            <label for="CheckOut">Check Out</label>
+            <input type="text" placeholder="Choose a date">
+          </div>
+          <div class="input__group">
+            <label for="Guests">Guests</label>
+            <input type="text" placeholder="Number of guests">
+          </div>
+          <button class="btn">CHECK AVAILABILITY</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Trending 2025 -->
+  <section class="section__container inner card">
+    <div class="section__header">
+      <h2 class="title">Trending 2025</h2>
+      <div class="section__nav">
+        <span class="slider-prev"><i class="ri-arrow-left-s-line"></i></span>
+        <span class="slider-next"><i class="ri-arrow-right-s-line"></i></span>
+      </div>
+    </div>
+
+    <div class="slider">
+      <!-- 1번째 -->
+      <div class="trending__card">
+        <img src="./images/trending-1.jpg" alt="trending-1">
+        <h1>Mountain Hiking Tour</h1>
+        <p>Hiking Our | Stoke On Trent</p>
+        <div class="trending__details">
+          <div class="price">
+            <p>From</p>
+            <h3>$957.50</h3>
+            <p>*Price varies</p>
+          </div>
+          <div class="trending__ratings">
+            <div>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-half-s-line"></i></span>
+              <span><i class="ri-star-s-line"></i></span>
+            </div>
+            <p>4.8 (10)</p>
+          </div>
+        </div>
+        <h5><i class="ri-time-line"></i> 7 days</h5>
+        <p><i class="ri-check-fill"></i> Free Cancellation</p>
+      </div>
+      <!-- 2번째 -->
+      <div class="trending__card">
+        <img src="./images/trending-2.jpg" alt="trending-1">
+        <h1>Train Tour Skyline</h1>
+        <p>Adventure Journey | Group Tour</p>
+        <div class="trending__details">
+          <div class="price">
+            <p>From</p>
+            <h3>$500.50</h3>
+            <p>*Price varies</p>
+          </div>
+          <div class="trending__ratings">
+            <div>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-half-s-line"></i></span>
+              <span><i class="ri-star-s-line"></i></span>
+            </div>
+            <p>4.2 (25)</p>
+          </div>
+        </div>
+        <h5><i class="ri-time-line"></i> 3 days</h5>
+        <p><i class="ri-check-fill"></i> Free Cancellation</p>
+      </div>
+      <!-- 3번째 -->
+      <div class="trending__card">
+        <img src="./images/trending-3.jpg" alt="trending-3">
+        <h1>Wild Forest Life</h1>
+        <p>Scenic Beauty | Adrenaline Rush</p>
+        <div class="trending__details">
+          <div class="price">
+            <p>From</p>
+            <h3>$745.00</h3>
+            <p>*Price varies</p>
+          </div>
+          <div class="trending__ratings">
+            <div>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-half-s-line"></i></span>
+              <span><i class="ri-star-s-line"></i></span>
+            </div>
+            <p>4.5 (15)</p>
+          </div>
+        </div>
+        <h5><i class="ri-time-line"></i> 6 days</h5>
+        <p><i class="ri-check-fill"></i> Free Cancellation</p>
+      </div>
+
+      <!-- 4번째 -->
+      <div class="trending__card">
+        <img src="./images/trending-1.jpg" alt="trending-1">
+        <h1>Mountain Hiking Tour</h1>
+        <p>Hiking Our | Stoke On Trent</p>
+        <div class="trending__details">
+          <div class="price">
+            <p>From</p>
+            <h3>$957.50</h3>
+            <p>*Price varies</p>
+          </div>
+          <div class="trending__ratings">
+            <div>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-half-s-line"></i></span>
+              <span><i class="ri-star-s-line"></i></span>
+            </div>
+            <p>4.8 (10)</p>
+          </div>
+        </div>
+        <h5><i class="ri-time-line"></i> 7 days</h5>
+        <p><i class="ri-check-fill"></i> Free Cancellation</p>
+      </div>
+      <!-- 5번째 -->
+      <div class="trending__card">
+        <img src="./images/trending-2.jpg" alt="trending-1">
+        <h1>Train Tour Skyline</h1>
+        <p>Adventure Journey | Group Tour</p>
+        <div class="trending__details">
+          <div class="price">
+            <p>From</p>
+            <h3>$500.50</h3>
+            <p>*Price varies</p>
+          </div>
+          <div class="trending__ratings">
+            <div>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-half-s-line"></i></span>
+              <span><i class="ri-star-s-line"></i></span>
+            </div>
+            <p>4.2 (25)</p>
+          </div>
+        </div>
+        <h5><i class="ri-time-line"></i> 3 days</h5>
+        <p><i class="ri-check-fill"></i> Free Cancellation</p>
+      </div>
+      <!-- 6번째 -->
+      <div class="trending__card">
+        <img src="./images/trending-3.jpg" alt="trending-3">
+        <h1>Wild Forest Life</h1>
+        <p>Scenic Beauty | Adrenaline Rush</p>
+        <div class="trending__details">
+          <div class="price">
+            <p>From</p>
+            <h3>$745.00</h3>
+            <p>*Price varies</p>
+          </div>
+          <div class="trending__ratings">
+            <div>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-s-fill"></i></span>
+              <span><i class="ri-star-half-s-line"></i></span>
+              <span><i class="ri-star-s-line"></i></span>
+            </div>
+            <p>4.5 (15)</p>
+          </div>
+        </div>
+        <h5><i class="ri-time-line"></i> 6 days</h5>
+        <p><i class="ri-check-fill"></i> Free Cancellation</p>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <!-- Top Destinations -->
+  <section class="section__container inner">
+    <div class="section__header">
+      <h2 class="title">Top Destinations</h2>
+      <div class="section__btn">
+        <button class="btn">Check All</button>
+      </div>
+    </div>
+    <div class="destination__grid">
+      <!-- 1번째 -->
+      <div class="destination__card ">
+        <img src="./images/dest-1.png" alt="dest-1">
+        <div class="badge">4.7</div>
+        <div class="destination__details">
+          <h4>Himalayas</h4>
+          <p>Mountains</p>
+        </div>
+      </div>
+      <!-- 2번째 -->
+      <div class="destination__card">
+        <img src="./images/dest-2.png" alt="dest-2">
+        <div class="badge">4.5</div>
+        <div class="destination__details">
+          <h4>London</h4>
+          <p>Beauty</p>
+        </div>
+      </div>
+      <!-- 3번째 -->
+      <div class="destination__card">
+        <img src="./images/dest-3.png" alt="dest-3">
+        <div class="badge">4.3</div>
+        <div class="destination__details">
+          <h4>Tokyo</h4>
+          <p>Tradition</p>
+        </div>
+      </div>
+      <!-- 4번째 -->
+      <div class="destination__card">
+        <img src="./images/dest-4.png" alt="dest-4">
+        <div class="badge">4.8</div>
+        <div class="destination__details">
+          <h4>Greece</h4>
+          <p>White Dome</p>
+        </div>
+      </div>
+      <!-- 5번째 -->
+      <div class="destination__card">
+        <img src="./images/dest-5.png" alt="dest-5">
+        <div class="badge">4.2</div>
+        <div class="destination__details">
+          <h4>Sydney</h4>
+          <p>Waterfall</p>
+        </div>
+      </div>
+      <!-- 6번째 -->
+      <div class="destination__card">
+        <img src="./images/dest-6.png" alt="dest-6">
+        <div class="badge">4.7</div>
+        <div class="destination__details">
+          <h4>Amsterdam</h4>
+          <p>Peace</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Seller -->
+  <section class="section__container inner">
+    <div class="section__header">
+      <h2 class="title">Best Seller</h2>
+      <div class="section__nav">
+        <span class="slider-prev"><i class="ri-arrow-left-s-line"></i></span>
+        <span class="slider-next"><i class="ri-arrow-right-s-line"></i></span>
+      </div>
+    </div>
+
+    <div class="slider">
+      <!-- 1번째 -->
+      <div class="seller__card">
+        <div class="seller__img">
+          <img src="./images/seller-1.png" alt="seller1">
+          <div class="seller__img__content">
+            <div class="badge">30%</div>
+            <div class="seller__content__footer">
+              <div class="seller__price">
+                <p>10 Days | 09 Nights</p>
+                <h4>$955.50</h4>
+              </div>
+              <button class="btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="seller__details">
+          <h4>Trains Tour Skyline</h4>
+          <p>Embark on a scenic railway adventure with Trains Tour Skyline</p>
+        </div>
+      </div>
+      <!-- 2번째 -->
+      <div class="seller__card">
+        <div class="seller__img">
+          <img src="./images/seller-2.png" alt="seller1">
+          <div class="seller__img__content">
+            <div class="badge">20%</div>
+            <div class="seller__content__footer">
+              <div class="seller__price">
+                <p>05 Days | 06 Nights</p>
+                <h4>$785.50</h4>
+              </div>
+              <button class="btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="seller__details">
+          <h4>Sea Nature View</h4>
+          <p>Where the ocean's beauty meets your soul's serenity</p>
+        </div>
+      </div>
+      <!-- 3번째 -->
+      <div class="seller__card">
+        <div class="seller__img">
+          <img src="./images/seller-3.png" alt="seller3">
+          <div class="seller__img__content">
+            <div class="badge">25%</div>
+            <div class="seller__content__footer">
+              <div class="seller__price">
+                <p>07 Days | 06 Nights</p>
+                <h4>$555.00</h4>
+              </div>
+              <button class="btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="seller__details">
+          <h4>Tokyo Market Ptr</h4>
+          <p>Where Tradition Meets Modern Marvels in Every Aisle</p>
+        </div>
+      </div>
+      <!-- 4번째 -->
+      <div class="seller__card">
+        <div class="seller__img">
+          <img src="./images/seller-1.png" alt="seller1">
+          <div class="seller__img__content">
+            <div class="badge">30%</div>
+            <div class="seller__content__footer">
+              <div class="seller__price">
+                <p>10 Days | 09 Nights</p>
+                <h4>$955.50</h4>
+              </div>
+              <button class="btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="seller__details">
+          <h4>Trains Tour Skyline</h4>
+          <p>Embark on a scenic railway adventure with Trains Tour Skyline</p>
+        </div>
+      </div>
+      <!-- 5번째 -->
+      <div class="seller__card">
+        <div class="seller__img">
+          <img src="./images/seller-2.png" alt="seller1">
+          <div class="seller__img__content">
+            <div class="badge">20%</div>
+            <div class="seller__content__footer">
+              <div class="seller__price">
+                <p>05 Days | 06 Nights</p>
+                <h4>$785.50</h4>
+              </div>
+              <button class="btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="seller__details">
+          <h4>Sea Nature View</h4>
+          <p>Where the ocean's beauty meets your soul's serenity</p>
+        </div>
+      </div>
+      <!-- 6번째 -->
+      <div class="seller__card">
+        <div class="seller__img">
+          <img src="./images/seller-3.png" alt="seller3">
+          <div class="seller__img__content">
+            <div class="badge">25%</div>
+            <div class="seller__content__footer">
+              <div class="seller__price">
+                <p>07 Days | 06 Nights</p>
+                <h4>$555.00</h4>
+              </div>
+              <button class="btn">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="seller__details">
+          <h4>Tokyo Market Ptr</h4>
+          <p>Where Tradition Meets Modern Marvels in Every Aisle</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Tour -->
+  <section class="tour">
+    <div class="section__tour inner">
+      <h1>Watch Our Video Tour</h1>
+      <div class="video__container">
+        <video src="./images/tour-video.mp4" autoplay muted loop></video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Guide -->
+  <section class="section__container inner">
+    <div class="section__header">
+      <h2 class="title">Tour Guide</h2>
+      <div class="section__nav">
+        <span class="slider-prev"><i class="ri-arrow-left-s-line"></i></span>
+        <span class="slider-next"><i class="ri-arrow-right-s-line"></i></span>
+      </div>
+    </div>
+    <div class="slider">
+      <!-- 1번째 -->
+      <div class="guide__card">
+        <div class="guide__img">
+          <img src="./images/guide-1.jpg" alt="guide-1">
+          <div class="guide__socials">
+            <div>
+              <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+            </div>
+            <button class="btn">Follow me</button>
+          </div>
+        </div>
+        <div class="guide__content">
+          <div class="guide__details">
+            <h4>Elias Hossain</h4>
+            <p>Forest Guide</p>
+          </div>
+          <p>With a deep passion for forests, our experts are committed to craft immersive 
+            experiences to connect with the wilderness.
+          </p>
+        </div>
+      </div>
+      <!-- 2번째 -->
+      <div class="guide__card">
+        <div class="guide__img">
+          <img src="./images/guide-2.jpg" alt="guide-2">
+          <div class="guide__socials">
+            <div>
+              <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+            </div>
+            <button class="btn">Follow me</button>
+          </div>
+        </div>
+        <div class="guide__content">
+          <div class="guide__details">
+            <h4>Ahmed Hamdy</h4>
+            <p>Ocean Guide</p>
+          </div>
+          <p>Join us as we embark on a journey of inspiring encounters in the ocean's 
+            surface where secrets become your unforgettable memories.
+          </p>
+        </div>
+      </div>
+      <!-- 3번째 -->
+      <div class="guide__card">
+        <div class="guide__img">
+          <img src="./images/guide-3.jpg" alt="guide-3">
+          <div class="guide__socials">
+            <div>
+              <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+            </div>
+            <button class="btn">Follow me</button>
+          </div>
+        </div>
+        <div class="guide__content">
+          <div class="guide__details">
+            <h4>Esiam Samir</h4>
+            <p>City Guide</p>
+          </div>
+          <p>With a passion for travel and a commitment to excellence, 
+            we curate memorable experiences that go beyond the ordinary.
+          </p>
+        </div>
+      </div>
+      <!-- 4번째 -->
+      <div class="guide__card">
+        <div class="guide__img">
+          <img src="./images/guide-1.jpg" alt="guide-1">
+          <div class="guide__socials">
+            <div>
+              <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+            </div>
+            <button class="btn">Follow me</button>
+          </div>
+        </div>
+        <div class="guide__content">
+          <div class="guide__details">
+            <h4>Elias Hossain</h4>
+            <p>Forest Guide</p>
+          </div>
+          <p>With a deep passion for forests, our experts are committed to craft immersive 
+            experiences to connect with the wilderness.
+          </p>
+        </div>
+      </div>
+      <!-- 5번째 -->
+      <div class="guide__card">
+        <div class="guide__img">
+          <img src="./images/guide-2.jpg" alt="guide-2">
+          <div class="guide__socials">
+            <div>
+              <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+            </div>
+            <button class="btn">Follow me</button>
+          </div>
+        </div>
+        <div class="guide__content">
+          <div class="guide__details">
+            <h4>Ahmed Hamdy</h4>
+            <p>Ocean Guide</p>
+          </div>
+          <p>Join us as we embark on a journey of inspiring encounters in the ocean's 
+            surface where secrets become your unforgettable memories.
+          </p>
+        </div>
+      </div>
+      <!-- 6번째 -->
+      <div class="guide__card">
+        <div class="guide__img">
+          <img src="./images/guide-3.jpg" alt="guide-3">
+          <div class="guide__socials">
+            <div>
+              <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+              <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+            </div>
+            <button class="btn">Follow me</button>
+          </div>
+        </div>
+        <div class="guide__content">
+          <div class="guide__details">
+            <h4>Esiam Samir</h4>
+            <p>City Guide</p>
+          </div>
+          <p>With a passion for travel and a commitment to excellence, 
+            we curate memorable experiences that go beyond the ordinary.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Feedback -->
+  <section class="section__container inner">
+    <div class="section__header">
+      <h2 class="title">Clients Feedback</h2>
+      <div class="section__nav">
+        <span class="slider-prev"><i class="ri-arrow-left-s-line"></i></span>
+        <span class="slider-next"><i class="ri-arrow-right-s-line"></i></span>
+      </div>
+    </div>
+
+    <div class="slider">
+      <!-- 1번째 -->
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-half-s-fill"></i></span>
+            <span><i class="ri-star-s-line"></i></span>
+          </div>
+        </div>
+        <p>I had the most incredible experience using this tour and travel website. 
+          From booking my flights and accommodations to discovering unique local activities, 
+          everything was seamless and well-organized. 
+          It made my trip stress-free and unforgettable. 
+          I can't wait to plan my next adventure with them!
+        </p>
+        <div class="client__card__footer">
+          <img src="./images/feedback-1.jpg" alt="feedback-1">
+          <div class="client__details">
+            <h4>Mike Henderson</h4>
+            <p>Business Manager & CEO</p>
+          </div>
+        </div>
+      </div>
+      <!-- 2번째 -->
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+          </div>
+        </div>
+        <p>As a frequent traveler, I've used various tour and travel websites, 
+          but this one stands out for its attention to detail and personalized recommendations. 
+          The itineraries they offer are thoughtfully curated, and the insider tips on their blog 
+          were a game-changer for my recent trip. Highly recommended! Thanks to them.
+        </p>
+        <div class="client__card__footer">
+          <img src="./images/feedback-2.jpg" alt="feedback-2">
+          <div class="client__details">
+            <h4>Paul Harrison</h4>
+            <p>Director</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3번째 -->
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-line"></i></span>
+          </div>
+        </div>
+        <p>I'm not an experienced traveler, but this website made me feel like a pro. 
+          The customer support team was incredibly helpful in guiding me through the 
+          planning process, and their city guides provided valuable insights. 
+          Thanks to them, I had a fantastic time exploring a new city with confidence. 
+          I can't thank them enough!
+        </p>
+        <div class="client__card__footer">
+          <img src="./images/feedback-3.jpg" alt="feedback-3">
+          <div class="client__details">
+            <h4>John Williams</h4>
+            <p>Content Writer</p>
+          </div>
+        </div>
+      </div>
+      <!-- 4번째 -->
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-half-s-fill"></i></span>
+            <span><i class="ri-star-s-line"></i></span>
+          </div>
+        </div>
+        <p>I had the most incredible experience using this tour and travel website. 
+          From booking my flights and accommodations to discovering unique local activities, 
+          everything was seamless and well-organized. 
+          It made my trip stress-free and unforgettable. 
+          I can't wait to plan my next adventure with them!
+        </p>
+        <div class="client__card__footer">
+          <img src="./images/feedback-1.jpg" alt="feedback-1">
+          <div class="client__details">
+            <h4>Mike Henderson</h4>
+            <p>Business Manager & CEO</p>
+          </div>
+        </div>
+      </div>
+      <!-- 5번째 -->
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+          </div>
+        </div>
+        <p>As a frequent traveler, I've used various tour and travel websites, 
+          but this one stands out for its attention to detail and personalized recommendations. 
+          The itineraries they offer are thoughtfully curated, and the insider tips on their blog 
+          were a game-changer for my recent trip. Highly recommended! Thanks to them.
+        </p>
+        <div class="client__card__footer">
+          <img src="./images/feedback-2.jpg" alt="feedback-2">
+          <div class="client__details">
+            <h4>Paul Harrison</h4>
+            <p>Director</p>
+          </div>
+        </div>
+      </div>
+      <!-- 6번째 -->
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-fill"></i></span>
+            <span><i class="ri-star-s-line"></i></span>
+          </div>
+        </div>
+        <p>I'm not an experienced traveler, but this website made me feel like a pro. 
+          The customer support team was incredibly helpful in guiding me through the 
+          planning process, and their city guides provided valuable insights. 
+          Thanks to them, I had a fantastic time exploring a new city with confidence. 
+          I can't thank them enough!
+        </p>
+        <div class="client__card__footer">
+          <img src="./images/feedback-3.jpg" alt="feedback-3">
+          <div class="client__details">
+            <h4>John Williams</h4>
+            <p>Content Writer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Subscribe -->
+  <section class="subscribe">
+    <div class="section__container inner">
+      <h1>Subscribe and be Updated</h1>
+      <form action="/">
+        <input type="text" placeholder="Please enter your email address">
+        <button class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="section__container inner">
+      <div class="footer__container">
+        <div class="footer__col">
+          <h5>Wanderlust</h5>
+          <p>Welcome to Wanderlust, our tour and travel website is your gateway 
+            to a world of wanderlust-inducing experiences.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="javascript:void(0)">Home</a>
+          <a href="javascript:void(0)">Destinations</a>
+          <a href="javascript:void(0)">Write to Us</a>
+          <a href="javascript:void(0)">Contact Us</a>
+          <a href="javascript:void(0)">Privacy Policy</a>
+        </div>
+        <div class="footer__col">
+          <h4>Features</h4>
+          <a href="javascript:void(0)">Package</a>
+          <a href="javascript:void(0)">List of Tours</a>
+          <a href="javascript:void(0)">Gallery</a>
+          <a href="javascript:void(0)">Travel on a Budget</a>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <div class="footer__socials">
+            <span><a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a></span>
+            <span><a href="javascript:void(0)"><i class="ri-linkedin-fill"></i></a></span>
+            <span><a href="javascript:void(0)"><i class="ri-instagram-line"></i></a></span>
+            <span><a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+        Copyright &copy; <span id="this_year"></span> Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <!-- Slick JS -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script defer src="./js/main.js"></script>
+
+  
+</body>
+</html>

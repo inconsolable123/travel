@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Slick Test</title>
+
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body>
+
+  <div class="slider">
+    <div class="trending__card"><img src="./images/trending-1.jpg" alt=""></div>
+    <div class="trending__card"><img src="./images/trending-2.jpg" alt=""></div>
+    <div class="trending__card"><img src="./images/trending-3.jpg" alt=""></div>
+    <div class="trending__card"><img src="./images/trending-1.jpg" alt=""></div>
+    <div class="trending__card"><img src="./images/trending-2.jpg" alt=""></div>
+    <div class="trending__card"><img src="./images/trending-3.jpg" alt=""></div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <!-- Slick JS -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- Init -->
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true
+      });
+    });
+  </script>
+
+</body>
+</html>
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('.section__header').forEach((containerEl) => {
+    const $slider = $(containerEl.querySelector('.slider'));
+    const prevBtn = containerEl.querySelector('.slider-prev');
+    const nextBtn = containerEl.querySelector('.slider-next');
+
+
+  $slider.slick({
+    slidesToShow: 3, //화면에 보여질 요소의 개수
+    slidesToScroll: 1, // 이동개수
+    arrows: false, //화살표 안보이기
+    dots: false, //점 안보이기
+    infinite: false // 슬라이드 가 처음/끝에 멈춤
+  });  
+
+  // 각 외부 버튼으로 컨트롤
+  prevBtn.addEventListener('click', function(){
+    $slider.slick('slickPrev')
+  });
+
+  nextBtn.addEventListener('click', () => {
+    $slider.slick('slickNext')
+  });
+});
