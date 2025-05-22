@@ -108,9 +108,9 @@ img {
 /* header */
 .header {
   background-image: url("../images/header.bg.jpg");
-  /* background-position: center center;
+  background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 nav {
   display: flex;
@@ -693,6 +693,15 @@ header .header__container .input__group input{
   }
   .destination__card{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .section__tour .video__container{
+    max-width: 560px;
+  }
+  .footer__copy{font-size: .8rem;}
+}
+@media(width < 500px) {
+  .section__tour .video__container{
+    max-width: 400px;
   }
 }
 

@@ -1,0 +1,6 @@
+.idea
+.vscode
+.DS_Store
+
+# 특정파일 제외
+index.html
